@@ -1,0 +1,177 @@
+h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: 40px;
+
+}
+
+h1 span{
+    color: #fac031;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: mv boli;
+}
+h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 2px;
+}
+
+
+a .content .name{
+    padding: 0.2rem;
+    font-weight: bold;
+    top: 20px;
+    position:relative;
+    text-align: center;
+    
+    /* overflow: hidden; */
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 90px;
+    
+    
+    
+}
+ul li a{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid rgb(143, 139, 139);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-bottom: .8rem;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: black;
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+ul li a img{
+border-radius: 1rem;
+
+}
+
+ul li a:hover{
+    /* opacity: 0.8;
+    cursor: pointer; */
+    cursor: pointer;
+    transform: scale(1.1);
+} 
+.product-item-footer .origins{
+   /* font-weight: bold; */
+   position: relative;
+   right: 1px;
+   font-size: 16px;
+   top: -100px;
+   text-align: center;
+   padding: 1.1em;
+}
+.price{
+    position: relative;
+    right: -2px;
+    font-size: 16px;
+    top: -161px;
+    text-align: center;
+    padding: 1.1em;
+}
+.cook-time{
+    position: relative;
+    right: 1px;
+    font-size: 16px;
+    top: -128px;
+    text-align: center;
+    padding: 1.1em;
+    font-weight: bold;
+
+}
+
+
+.favorite{
+    position:relative;
+    /* top: .5rem; */
+    /* display: flex; */
+    justify-content: center;
+    top:-8px;
+    left: 20px;
+    /* font-size: 1rem; */
+    color: #e72929;
+    text-decoration: none;
+}
+
+
+
+
+.favorite.not{
+    color: #dddddd;
+}
+
+/* li a .content:hover{
+  cursor: pointer;
+ 
+
+  margin: 5px;
+  transition: 1s;
+} */
+
+
+
+
+.stars{
+   position: relative;
+   right: 1px;
+   font-size: 22px;
+   top: -40px;
+   text-align: center;
+   padding: 1.1em;
+   
+ 
+   
+   
+}
+
+
+
+
+
+/* label{
+    cursor: pointer;
+}
+input{
+    display: none;
+}
+input:checked +label ~label{
+    color: #dddddd;
+}
+
+input:hover +label ~label{
+    color: #dddddd;
+}
+label:active{
+    transform: scale(0.7) ;
+    transition: 0.3;
+} */
+

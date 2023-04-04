@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+    
+
+}
+.container > *{
+    min-width: 25rem;
+    max-width: 40rem;
+} 
+.image img{
+   border-radius: 3rem; 
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   flex: 1 0;
+   object-fit: cover;
+   height: 30rem;
+   margin: 1rem;
+  
+  
+}
+.details{
+    width: 10%;
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex:0.1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+  
+   
+}
+.details .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .name{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    right: -2px;
+    text-decoration: none;
+
+}
+.details .favorite{
+   color: #e72929;
+   
+   font-size: 2.2rem;
+}
+.details .favorite.not{
+    color: #d2d2d2;
+}
+
+.details .origins{
+    position: relative;
+    top: -10px;
+    right: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+
+}
+.details .origins > span{
+    padding: .3rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color:grey;
+    color: white;
+}   
+
+.details .cook-time{
+    margin: 1rem;
+    position: relative;
+    right: 8px;
+    
+    
+}
+.details .cook-time span{
+    /* padding: .6rem 2rem .6rem 0; */
+    /* border-radius: 10rem; */
+    font-size: 1rem;
+    position: relative;
+    top: 10px;
+    
+}
+
+.details .price{
+    font-size: 1.5rem;
+    margin:  1rem 1rem 1rem 0;
+    color: green;
+    position: relative;
+    right: -9px;
+}
+
+.details .price::before{
+    content: "Price: ";
+    color: grey;
+}
+
+.details button{
+    color: white;
+    background-color:#e72929;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+    position: relative;
+    bottom: -30px;
+    right: -50px;
+}
+
+.details button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+.details .tag{
+    position: relative;
+    /* margin-top: -2px; */
+    top: -70px;
+    left: -5px;
+    padding-left: 0.6rem;
+    
+}
+  
+.cook-time span img{
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+/* .container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin: 3rem;
+} */

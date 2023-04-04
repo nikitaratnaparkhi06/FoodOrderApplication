@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: relative;
+    bottom: -70px;
+    /* align-items: center; */
+}
+div a{
+    background-color: #e3e3e1;
+    padding: .3rem 1rem;
+    margin: .2rem .15rem;
+    border-radius:10rem ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: rgb(8, 7, 7);
+    font-weight: 600;
+    text-decoration: none;
+}
+ 

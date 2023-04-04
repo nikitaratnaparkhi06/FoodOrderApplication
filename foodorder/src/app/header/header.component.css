@@ -1,0 +1,83 @@
+header
+{
+    /* background-color: white;
+    padding: 0; */
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    z-index: 1000;
+    line-height: 0px;
+    padding: 0.3rem;
+    background-image: url(https://cdn.dribbble.com/users/1141739/screenshots/10193818/media/1b869fd1cfa7750c8550c598de01fb1f.gif);
+    background-position: top -25px left 140px;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    padding: auto;
+    
+    /* border-bottom: 3px solid #e72929; */
+}
+a{
+    color: black;
+}
+/* a:hover{
+    background-color:#ce8ff5;
+    color: white;
+} */
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* a.logo{
+    font-weight: bold;
+    padding: 1.3em;
+} */
+.logo img{
+   width: 120px;
+   cursor: pointer;
+   margin: 7px 0;
+   position: relative;
+   right: 75px;
+   top: 10px;
+   
+}
+ul{
+    
+    list-style-type: none;
+    margin: 2;
+
+}
+ul li a {
+    padding-left: 2.9em;
+    position: relative;
+    left: 270px;
+    top: 25px;
+    display:inline-block;
+} 
+
+
+
+
+header nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+header nav ul li a:hover::after{
+    width: 100%;
+}
+header nav ul li a:hover{
+    color: #fac031;
+}
+.shopcart{
+    color: #ff4d4d;
+}
+
